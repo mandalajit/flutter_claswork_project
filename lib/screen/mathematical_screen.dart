@@ -1,7 +1,6 @@
-import 'package:ajit/model/mathematcs_model.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:ajit/model/mathematcs_model.dart';
+
 
 class Mathematical extends StatefulWidget {
   const Mathematical({super.key});
@@ -21,7 +20,7 @@ class _MathematicalState extends State<Mathematical> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Adarsh Rawal"),
+        title: const Text("Ajit Mandal"),
         centerTitle: true,
         backgroundColor: Colors.blue,
         elevation: 0,
